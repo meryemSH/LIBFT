@@ -9,6 +9,11 @@ typedef struct s_list
 }	t_list;
 
 int ft_isalpha(char c);
+int ft_isdigit(int C);
+int ft_isalnum(char c);
+int ft_isascii(int c);
+int ft_isprint(int c);
+int ft_strlen(char *str);
 
 
 #endif
